@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Info Harga &mdash; SIMPANG (Redesign Konsep)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<div class="topbar"><div class="container">
+  <div class="left"><span>Sabtu, 08 Agustus 2026</span><a href="#">WhatsApp</a><a href="#">Facebook</a><a href="#">Instagram</a></div>
+  <a href="#">Daftar OSS untuk izin edar pangan &rarr;</a>
+</div></div>
+<header class="site"><div class="container">
+  <a class="brand" href="index.html">
+    <div class="mark">S</div>
+    <div><div class="name">SIMPANG</div><div class="sub">DKP3 Kota Medan</div></div>
+  </a>
+  <nav class="main-nav">
+    <a href="index.html" class="">Beranda</a>
+    <div class="dropdown active">
+      <button class="dropdown-trigger active-sub">Info Harga <span class="arrow">&#9662;</span></button>
+      <div class="dropdown-menu">
+        <a href="harga.html" class="active">Info Harga Pangan</a>
+        <a href="peta.html" class="">Peta Harga Pangan</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropdown-trigger">JDIH <span class="arrow">&#9662;</span></button>
+      <div class="dropdown-menu">
+        <a href="jdih.html" class="">Dokumen Kajian</a>
+        <a href="galeri.html" class="">Galeri Kegiatan</a>
+      </div>
+    </div>
+    <a href="produk.html" class="">Daftar Produk</a>
+    <a href="distributor.html" class="">Distributor</a>
+    <a href="pengaduan.html" class="">Pengaduan</a>
+    <a href="survey.html" class="">Survey</a>
+    <a href="nbm.html" class="">NBM</a>
+  </nav>
+  <button class="hamburger" aria-label="Buka menu">&#9776;</button>
+</div></header>
+
+
+<section class="section" style="padding-top:36px;">
+  <div class="container">
+    <div class="eyebrow">Info harga pangan</div>
+    <h2 style="margin:0 0 20px;">Harga seluruh komoditas pokok</h2>
+    <div class="toolbar">
+      <input type="text" placeholder="Cari komoditas..." data-search-target="#semua-harga">
+      <select><option>Semua kecamatan</option><option>Medan Area</option><option>Medan Barat</option></select>
+      <input type="date" value="2026-08-06">
+    </div>
+    <div class="tabs" data-target="#semua-harga">
+      <button class="active" data-cat="semua">Semua</button>
+      <button data-cat="pokok">Bahan pokok</button>
+      <button data-cat="bumbu">Sayur &amp; bumbu</button>
+      <button data-cat="protein">Protein hewani</button>
+    </div>
+    <div class="price-grid" id="semua-harga"><div data-search-item="Beras" data-cat-item="pokok"><div class="price-card">
+      <div class="top"><img src="images/beras.png" alt="Beras" class="commodity-icon"><div><span class="badge badge-flat">tetap</span></div></div>
+      <div class="komoditi">Beras</div>
+      <div class="harga">Rp 13.600</div>
+      <div class="satuan">per kg</div>
+      <div class="pasar">Pasar Bakti: Rp 13.600<br>Pasar Medan Deli: Rp 13.600</div>
+    </div></div><div data-search-item="Cabai merah" data-cat-item="bumbu"><div class="price-card">
+      <div class="top"><img src="images/cabai_merah.png" alt="Cabai merah" class="commodity-icon"><div><span class="badge badge-up">&#9650; 7,51%</span></div></div>
+      <div class="komoditi">Cabai merah</div>
+      <div class="harga">Rp 35.700</div>
+      <div class="satuan">per kg</div>
+      <div class="pasar">Pasar Bakti: Rp 42.000<br>Pasar Medan Deli: Rp 38.000</div>
+    </div></div><div data-search-item="Bawang merah" data-cat-item="bumbu"><div class="price-card">
+      <div class="top"><img src="images/bawang_merah.png" alt="Bawang merah" class="commodity-icon"><div><span class="badge badge-up">&#9650; 0,94%</span></div></div>
+      <div class="komoditi">Bawang merah</div>
+      <div class="harga">Rp 30.333</div>
+      <div class="satuan">per kg</div>
+      <div class="pasar">Pasar Bakti: Rp 30.333<br>Pasar Medan Deli: Rp 30.333</div>
+    </div></div><div data-search-item="Bawang putih" data-cat-item="bumbu"><div class="price-card">
+      <div class="top"><img src="images/bawang_putih.png" alt="Bawang putih" class="commodity-icon"><div><span class="badge badge-up">&#9650; 0,73%</span></div></div>
+      <div class="komoditi">Bawang putih</div>
+      <div class="harga">Rp 32.810</div>
+      <div class="satuan">per kg</div>
+      <div class="pasar">Pasar Bakti: Rp 32.000<br>Pasar Medan Deli: Rp 32.000</div>
+    </div></div><div data-search-item="Gula pasir" data-cat-item="pokok"><div class="price-card">
+      <div class="top"><img src="images/gula_pasir.png" alt="Gula pasir" class="commodity-icon"><div><span class="badge badge-flat">tetap</span></div></div>
+      <div class="komoditi">Gula pasir</div>
+      <div class="harga">Rp 18.500</div>
+      <div class="satuan">per kg</div>
+      <div class="pasar">Pasar Bakti: Rp 17.000<br>Pasar Medan Deli: Rp 18.000</div>
+    </div></div><div data-search-item="Minyak goreng" data-cat-item="bumbu"><div class="price-card">
+      <div class="top"><img src="images/minyak_goreng.png" alt="Minyak goreng" class="commodity-icon"><div><span class="badge badge-flat">tetap</span></div></div>
+      <div class="komoditi">Minyak goreng</div>
+      <div class="harga">Rp 20.361</div>
+      <div class="satuan">per kg</div>
+      <div class="pasar">Pasar Bakti: Rp 18.000<br>Pasar Medan Deli: Rp 21.000</div>
+    </div></div><div data-search-item="Telur ayam" data-cat-item="protein"><div class="price-card">
+      <div class="top"><img src="images/telur_ayam.png" alt="Telur ayam" class="commodity-icon"><div><span class="badge badge-flat">tetap</span></div></div>
+      <div class="komoditi">Telur ayam</div>
+      <div class="harga">Rp 29.663</div>
+      <div class="satuan">per kg</div>
+      <div class="pasar">Pasar Bakti: Rp 29.250<br>Pasar Medan Deli: Rp 30.000</div>
+    </div></div><div data-search-item="Daging ayam" data-cat-item="protein"><div class="price-card">
+      <div class="top"><img src="images/daging_ayam.png" alt="Daging ayam" class="commodity-icon"><div><span class="badge badge-up">&#9650; 0,32%</span></div></div>
+      <div class="komoditi">Daging ayam</div>
+      <div class="harga">Rp 39.526</div>
+      <div class="satuan">per kg</div>
+      <div class="pasar">Pasar Bakti: Rp 35.000<br>Pasar Medan Deli: Rp 40.000</div>
+    </div></div><div data-search-item="Daging sapi" data-cat-item="protein"><div class="price-card">
+      <div class="top"><img src="images/daging_sapi.png" alt="Daging sapi" class="commodity-icon"><div><span class="badge badge-up">&#9650; 0,19%</span></div></div>
+      <div class="komoditi">Daging sapi</div>
+      <div class="harga">Rp 140.000</div>
+      <div class="satuan">per kg</div>
+      <div class="pasar">Pasar Bakti: Rp 130.000<br>Pasar Medan Deli: Rp 135.000</div>
+    </div></div><div data-search-item="Cabai rawit" data-cat-item="bumbu"><div class="price-card">
+      <div class="top"><img src="images/cabai_rawit.png" alt="Cabai rawit" class="commodity-icon"><div><span class="badge badge-up">&#9650; 3,10%</span></div></div>
+      <div class="komoditi">Cabai rawit</div>
+      <div class="harga">Rp 41.200</div>
+      <div class="satuan">per kg</div>
+      <div class="pasar">Pasar Bakti: Rp 43.000<br>Pasar Medan Deli: Rp 39.000</div>
+    </div></div><div data-search-item="Jagung" data-cat-item="pokok"><div class="price-card">
+      <div class="top"><img src="images/jagung.png" alt="Jagung" class="commodity-icon"><div><span class="badge badge-down">&#9660; 1,20%</span></div></div>
+      <div class="komoditi">Jagung</div>
+      <div class="harga">Rp 6.800</div>
+      <div class="satuan">per kg</div>
+      <div class="pasar">Pasar Bakti: Rp 6.700<br>Pasar Medan Deli: Rp 6.900</div>
+    </div></div><div data-search-item="Kedelai" data-cat-item="bumbu"><div class="price-card">
+      <div class="top"><img src="images/kedelai.png" alt="Kedelai" class="commodity-icon"><div><span class="badge badge-flat">tetap</span></div></div>
+      <div class="komoditi">Kedelai</div>
+      <div class="harga">Rp 11.450</div>
+      <div class="satuan">per kg</div>
+      <div class="pasar">Pasar Bakti: Rp 11.450<br>Pasar Medan Deli: Rp 11.450</div>
+    </div></div></div>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="container">
+    <div class="section-head"><div><h2>Tren harga cabai merah (30 hari)</h2><p>Contoh grafik tren &mdash; data dummy</p></div></div>
+    <div class="card">
+      <div class="bar-chart">
+        <div class="bar" style="height:55%"><span>32rb</span></div>
+        <div class="bar b2" style="height:62%"><span>34rb</span></div>
+        <div class="bar" style="height:70%"><span>36rb</span></div>
+        <div class="bar b2" style="height:64%"><span>35rb</span></div>
+        <div class="bar" style="height:80%"><span>38rb</span></div>
+        <div class="bar b2" style="height:92%"><span>41rb</span></div>
+        <div class="bar" style="height:100%"><span>42rb</span></div>
+      </div>
+      <div style="display:flex;justify-content:space-between;font-size:11px;color:var(--text-soft);margin-top:8px;">
+        <span>1 Agu</span><span>3 Agu</span><span>4 Agu</span><span>5 Agu</span><span>5 Agu</span><span>6 Agu</span><span>6 Agu</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer class="site"><div class="container">
+  <div class="top">
+    <div class="seal">
+      <div class="mark" style="width:40px;height:40px;">S</div>
+      <div>
+        <div style="font-family:var(--font-display);font-weight:600;color:#F0EBDA;">SIMPANG &mdash; Versi 5.0 (konsep redesign)</div>
+        <div style="font-size:12px;">Dinas Ketahanan Pangan, Pertanian dan Perikanan Kota Medan</div>
+      </div>
+    </div>
+    <div class="links">
+      <a href="harga.html">Info harga</a><a href="jdih.html">JDIH</a><a href="distributor.html">Distributor</a>
+      <a href="pengaduan.html">Pengaduan</a><a href="survey.html">Survey</a><a href="#">Kebijakan privasi</a>
+    </div>
+  </div>
+  <div class="bottom"><span>Data pada demo ini adalah data dummy untuk keperluan presentasi desain.</span><span>Copyright &copy; 2026 DKP3 Kota Medan</span></div>
+</div></footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
