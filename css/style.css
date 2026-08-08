@@ -74,6 +74,7 @@ header.site.scrolled nav.main-nav a:hover{background:var(--bg-alt);color:var(--t
 header.site.scrolled nav.main-nav a.active{background:var(--text);color:#fff;}
 .hamburger{display:none;background:none;border:none;font-size:22px;cursor:pointer;color:#fff;transition:color .35s ease;}
 header.site.scrolled .hamburger{color:var(--text);}
+.hamburger.menu-open{color:var(--text) !important;}
 
 /* Dropdowns */
 /* Dropdowns */

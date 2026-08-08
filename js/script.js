@@ -4,7 +4,9 @@ document.addEventListener('DOMContentLoaded', function () {
   if (burger && nav) {
     burger.addEventListener('click', function () {
       nav.classList.toggle('open');
-      burger.textContent = nav.classList.contains('open') ? '✕' : '☰';
+      var isOpen = nav.classList.contains('open');
+      burger.textContent = isOpen ? '✕' : '☰';
+      burger.classList.toggle('menu-open', isOpen);
     });
   }
 
