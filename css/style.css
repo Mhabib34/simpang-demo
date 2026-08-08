@@ -191,7 +191,9 @@ header.site.scrolled .hamburger{color:var(--text);}
     z-index: 1000;
   }
   nav.main-nav.open{right:0;}
-  nav.main-nav a{width:100%;padding:13px 16px;display:block;}
+  nav.main-nav a{width:100%;padding:13px 16px;display:block;color:var(--text-soft) !important;}
+  nav.main-nav a:hover{background:var(--bg-alt) !important;color:var(--text) !important;}
+  nav.main-nav a.active{background:var(--text) !important;color:#fff !important;}
   .hamburger{
     display:block;
     position:relative;
