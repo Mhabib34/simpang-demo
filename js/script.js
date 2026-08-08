@@ -8,6 +8,26 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
+  // Header scroll: transparent → white (only on pages with .hero)
+  var header = document.querySelector('header.site');
+  var hasHero = !!document.querySelector('.hero');
+  if (header) {
+    if (hasHero) {
+      var onScroll = function () {
+        if (window.scrollY > 50) {
+          header.classList.add('scrolled');
+        } else {
+          header.classList.remove('scrolled');
+        }
+      };
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+    } else {
+      // No hero → always white header
+      header.classList.add('scrolled');
+    }
+  }
+
   document.querySelectorAll('.tabs').forEach(function (tabGroup) {
     var buttons = tabGroup.querySelectorAll('button');
     var targetSelector = tabGroup.getAttribute('data-target');
